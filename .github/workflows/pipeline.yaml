@@ -20,8 +20,8 @@ env:
             - lesson2
             - lesson4
             - lesson5
-              #        - lesson8
-              # - lesson9
+            - lesson8
+            - lesson9
 # inputs:
 #     name:
 #       type: choice
