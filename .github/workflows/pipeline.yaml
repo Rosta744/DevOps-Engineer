@@ -21,7 +21,9 @@ jobs:
       - name: Run tests
         run: |
           pip install pytest
+          mkdir ../lesson2
           cd lesson2
+          mkdir tests
           pytest tests/
   # Explore-GitHub-Actions:
   #   runs-on: ubuntu-latest
